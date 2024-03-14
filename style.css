@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b86f81d9;
+}
+
+header {
+    background-color: #bb8a75e4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #451e37f0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1f1d1bda;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f06292;
+}
+
+section {
+    padding: 10px;
+    background-color: #a07da8d4;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    background-image: url('flower-background.jpg');
+    background-size: cover;
+    color: #be6dafdd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#about, #products, #contact {
+    background-color: #171114d0;
+}
+
+.product {
+    width: 10px;
+    border: 1px solid #0b0a0cb8;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff55;
+}
+
+.product img {
+    max-width: 10px;
+    border-radius: 5px;
+}
+.featured-flowers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flower {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flower img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+footer {
+    background-color: #7a5198d4;
+    color: #ffffff3e;
+    text-align: center;
+    padding: 10px;
+}
